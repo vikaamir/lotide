@@ -9,7 +9,7 @@
 //   return results;
 // }
 const map = function(array, callback) {
-  const results = [];
+  
   for (let item of array) {
     results.push(callback(item));
   }
@@ -51,3 +51,6 @@ assertArraysEqual(result, ["h", "s", "t", "m", "t"])
 // assertArraysEqual(map(words,  word => word[0]), ["h", "s", "t", "m", "t"])
 assertArraysEqual(map(words, word => word.length), [5, 3, 2, 5, 3])
 assertArraysEqual(map(words, word => word + "hello"), ["happyhello", "sadhello", "tohello", "majorhello", "tomhello"])
+
+
+module.exports = map;

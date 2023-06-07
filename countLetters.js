@@ -26,3 +26,5 @@ assertEqual(testSen["h"], 4);
 assertEqual(testSen["e"], 3);
 assertEqual(testSen["u"], 2);
 assertEqual(testSen["t"], 2);
+
+module.exports = countLetters;

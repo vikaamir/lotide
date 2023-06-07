@@ -49,3 +49,4 @@ assertArraysEqual(testSen["h"], [3, 5, 15, 18]);
 assertArraysEqual(testSen["e"], [9, 16, 22]);
 assertArraysEqual(testSen["u"],  [7, 20]);
 assertArraysEqual(testSen["t"], [4, 14]);
+module.exports = letterPositions;
