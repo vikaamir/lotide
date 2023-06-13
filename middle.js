@@ -1,7 +1,10 @@
 const assertArraysEqual = require('./assertArraysEqual'); 
 const eqArrays = require('./eqArrays'); 
 
-// actual function
+//1. for the middke we need chck if the arrays is even or odd
+//2.when we have just one element or 2 should return empty array
+//3.if number is odd returning the middle number
+//4.if number is even returning the 2 middel numbers
 const middle = function(arr){ //[1, 34, 98, 4, 5]    
   let len = arr.length // 5
   if(len === 1 || len === 2){

@@ -1,4 +1,6 @@
 const assertEqual = require('./assertEqual');
+// comper if the arrays number are equales returm true or false
+// loop to check if the value are equal return true or false
 const eqArrays = function(arr1, arr2) {
   if (arr1.length !== arr2.length) {
     return false;
